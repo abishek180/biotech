@@ -25,7 +25,7 @@ import CameraAnimation from './assets/CameraAnimation';
 function Scene() {
   return (
     <Canvas camera={{ position: [0, 1, 4] }} gl={{ antialias: false, alpha: false }} dpr={1}>
-      <color args={['#cee7ff']} attach="background" />
+      <color args={['#57a798']} attach="background" />
       <Suspense fallback={null}>
         <CameraRig>
           <Float rotation={[-0.8, 0, -Math.PI / 2.5]} floatIntensity={4} rotationIntensity={4}>
@@ -57,10 +57,10 @@ function Scene() {
               rotation={[0, 0, 0]}
               position={[0, -1, -2]}
               fontSize={10}
-              color="#87a8c3"
+              color="#fff"
               fillOpacity={0.1}
               letterSpacing={-0.05}>
-              HEALTHY
+              BIOTECH
             </Text>
           </Billboard>
         </CameraRig>
